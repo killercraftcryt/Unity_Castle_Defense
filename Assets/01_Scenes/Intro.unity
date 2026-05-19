@@ -324,7 +324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: start
+  m_Text: Start
 --- !u!222 &373873185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'ROYAL
+  m_Text: 'CASTLE
 
     DEFENSE'
 --- !u!222 &848302810
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e9af4f2ca9dff1a4eb91497e28855627, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c93ec530a3a2b07469b13036a842f276, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: exit
+  m_Text: Exit
 --- !u!222 &1789356744
 CanvasRenderer:
   m_ObjectHideFlags: 0

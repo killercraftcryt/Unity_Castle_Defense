@@ -1,36 +1,31 @@
-# ⚔ RoyalDefense
-<div>
- <img width="49%" src="https://github.com/LeeYuJoung/RoyalDefense/blob/main/Intro_Image.png">
- <img width="49%" src="https://github.com/LeeYuJoung/RoyalDefense/blob/main/InGame_Image.png">
-</div>
+# Castle Defense
 
-*** 
-📅 **개발 기간 : 2023.10.01 ~ 2023.10.23**
- 
-📌 **장르 : 3D, 액션, RTS, Defense**
-***
+Castle Defense is a 3D real-time defense game made with Unity. During the day,
+the player prepares defenses, hires soldiers, upgrades buildings, and clears
+obstacles. At night, monsters attack the castle and the player must survive
+until morning.
 
-## 🛠 Stacks
-![](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white) 
-![](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+## Project
 
-## 💡 Points
-+ **Monster AI** 구현
-  - **기본 목적지 성**으로 설정
-  - 만약, Enemy의 **추적 반경 안에 Player가 들어오면** 추적 대상 Player로 변경
-  - 만약, Enemy가 **팬스에 충돌**하면 움직임을 멈추고 팬스에 공격 시작
-  - 모든 예외 상황이 사라지면 다시 성을 추적 대상으로 할당
-    
- + **Player의 Pawn** 이동
-   - Player가 가지고 있는 병사 중 하나를 클릭 후 **tag가 Tile인 Object를 클릭 시** 해당 Object 위치로 병사 이동
-   - 만약, 이동 중 **Pawn의 반경 안에 Enemy가 들어오면** 이동 멈추고 공격 시작
+- Engine: Unity
+- Platform target: Windows
+- Genre: 3D, action, RTS, defense
+- Build scenes:
+  - `Assets/01_Scenes/Intro.unity`
+  - `Assets/01_Scenes/Load.unity`
+  - `Assets/01_Scenes/Main.unity`
 
-## 🔗 Links
- 📺 [youtube : RoyalDefense 플레이 영상](https://youtu.be/ZUyHROVLqVg)
- 
- 📒 [Notion : RoyalDefense 개발문서](https://stump-lifter-1b4.notion.site/Royal-Defense-1ad55d2c7953816cbf6ff83630b68008)
+## Gameplay
 
- 📋 [RoyalDefense 게임기획서](https://drive.google.com/file/d/1OW9jdIzAGlB4QW5frjLavO0Xy3QqYEqs/view)
+- Monsters normally move toward the castle.
+- If the player enters an enemy's detection range, the enemy switches targets
+  and chases the player.
+- If an enemy reaches a fence or defensive structure, it stops and attacks it.
+- The player can select soldiers and move them to a clicked tile.
+- Soldiers stop moving and attack when enemies enter their range.
 
- 🎮 [Game Download](https://drive.google.com/file/d/1wBIDSGRxLbNrVF3ClIWI2UlfkJuN0W_F/view)
+## Repository Notes
+
+Generated Unity folders such as `Library`, `Temp`, `Logs`, and `UserSettings`
+are ignored and should not be committed. Open the project from the repository
+root in Unity, then use the scenes listed above for play testing or builds.
