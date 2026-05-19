@@ -1,2 +1,24 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and perform LF normalization.
 * text=auto
+
+# Unity text assets.
+*.asmdef text
+*.asset text
+*.controller text
+*.mat text
+*.meta text
+*.prefab text
+*.unity text
+
+# Common binary assets.
+*.anim binary
+*.exr binary
+*.fbx binary
+*.jpg binary
+*.jpeg binary
+*.mp3 binary
+*.otf binary
+*.png binary
+*.ttf binary
+*.wav binary
+*.zip binary
